@@ -9,23 +9,27 @@
     ],
     "repository": "https://github.com/abhiashu64/Ashu-saini",
     "success_url": "https://github.com/abhiashu64/Ashu-saini",
-    "stack": "heroku-24",
+    "stack": "container",
     "env": {
         "API_ID": {
-            "description": "23612641",
-            "required": true
+            "description": "𝑬𝒏𝒕𝒆𝒓 𝒀𝒐𝒖𝒓 𝑨𝒑𝒊 𝑰𝑫",
+            "value": "20567114"
         },
         "API_HASH": {
-            "description": "f7ef90c733241bdc2977e3fcc53df5b7",
-            "required": true
+            "description": "𝑬𝒏𝒕𝒆𝒓 𝒀𝒐𝒖𝒓 𝑨𝒑𝒊 𝑯𝒂𝒔𝒉",
+            "value": "8a5b92106e45fc6637a65a67df060a65"
         },
         "BOT_TOKEN": {
-            "description": "7616345723:AAFjunYuivsO9lI53K0U_tUCajLgeQ5_ZtI",
-            "required": true
+            "description": "𝑬𝒏𝒕𝒆𝒓 𝒀𝒐𝒖𝒓 𝑩𝒐𝒕 𝑻𝒐𝒌𝒆𝒏",
+            "value": "8029696499:AAGCjIluw3BMMdp7QDb2P9mk_6-kv81VI3k"
         },
         "OWNER_ID": {
-            "description": "7769588492",
-            "required": true
+            "description": "𝑼𝒔𝒆𝒓 𝑰𝑫 𝑶𝒇 𝑩𝒐𝒕 𝑶𝒘𝒏𝒆𝒓",
+            "value": "8036182138"
+        },
+        "SUDO_USERS": {
+            "description": "𝑺𝒖𝒅𝒐 𝑰𝑫'𝒔 (𝒀𝒐𝒖 𝑪𝒂𝒏 𝑨𝒅𝒅 𝑴𝒖𝒍𝒕𝒊𝒑𝒍𝒆 𝑩𝒚 𝑮𝒊𝒗𝒊𝒏𝒈 𝑺𝒑𝒂𝒄𝒆)",
+            "value": "8036182138"
         }
     },
     "addons": [],
@@ -35,9 +39,6 @@
         },
         {
             "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
-        },
-        {
-            "url": "https://github.com/heroku/heroku-buildpack-activestorage-preview"
-        },
+        }
     ]
-}
+ 
